@@ -11,8 +11,5 @@
         <module name="Animal_Kingdom_Project_Fixed" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Animal_Kingdom_Project_Fixed" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>
