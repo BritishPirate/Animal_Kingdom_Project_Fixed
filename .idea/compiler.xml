@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SI Project 5 Updated" />
         <module name="Animal" />
         <module name="nurClean" />
+        <module name="Animal_Kingdom_Project_Fixed" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SI Project 5 Updated" target="18" />
+      <module name="Animal_Kingdom_Project_Fixed" target="18" />
     </bytecodeTargetLevel>
   </component>
 </project>
