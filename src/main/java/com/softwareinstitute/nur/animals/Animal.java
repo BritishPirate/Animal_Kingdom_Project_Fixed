@@ -31,9 +31,9 @@ public abstract class Animal extends java.lang.Object {
         catch (Exception e){
             return null;
         }
-        finally {
-            return child;
-        }
+
+        return child;
+
     }
 
     void eat(Food food){
@@ -138,14 +138,16 @@ public abstract class Animal extends java.lang.Object {
 
     @Override
     public boolean equals(java.lang.Object obj) {
+        if(obj.getClass() != getClass()) return false;
         Animal animal = null;
+        boolean bool1 = false;
         try{
             animal = (Animal) obj;
+            bool1 = animal.age == age;
         }
         catch (Exception e){
             return false;
         }
-        boolean bool1 = animal.age == age;
         return bool1;
     }
 }
