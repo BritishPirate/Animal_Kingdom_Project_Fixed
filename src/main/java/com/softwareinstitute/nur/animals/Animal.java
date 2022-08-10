@@ -150,4 +150,9 @@ public abstract class Animal extends java.lang.Object {
         }
         return bool1;
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
