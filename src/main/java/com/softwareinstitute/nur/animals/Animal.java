@@ -141,6 +141,7 @@ public abstract class Animal extends java.lang.Object {
         Animal animal = null;
         boolean bool1 = false;
         try{
+            if(obj == null) return false;
             if(obj.getClass() != getClass()) return false;
             animal = (Animal) obj;
             bool1 = animal.age == age;
