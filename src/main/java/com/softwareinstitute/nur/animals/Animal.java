@@ -138,10 +138,10 @@ public abstract class Animal extends java.lang.Object {
 
     @Override
     public boolean equals(java.lang.Object obj) {
-        if(obj.getClass() != getClass()) return false;
         Animal animal = null;
         boolean bool1 = false;
         try{
+            if(obj.getClass() != getClass()) return false;
             animal = (Animal) obj;
             bool1 = animal.age == age;
         }
