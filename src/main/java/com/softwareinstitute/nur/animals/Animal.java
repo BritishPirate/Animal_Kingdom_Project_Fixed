@@ -45,15 +45,8 @@ public abstract class Animal extends java.lang.Object {
         this.gender = gender;
     }
 
-    public Animal(Coords position){
-        this(position, true);
-        Random random = new Random();
-        boolean randBool = random.nextBoolean();
-
-    }
-
     public Animal(){
-        this(new Coords(0f, 0f, 0f));
+        this(new Coords(0f, 0f, 0f), false);
     }
 
     public boolean isAlive() {
